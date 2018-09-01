@@ -12,7 +12,7 @@ As an example in this context, I uploaded a basic initialization file. It instru
 1) make available the MELPA (Milkypostman’s Emacs Lisp Package Archive) archive to install Emacs packages (~4000 packages); 
 2) autocomplete code by using *global-company-mode* package - here coupled to *ggtags* package to autocomplete C++ code.
 3) use default variables and faces/themes.
-You can extensively modify it by adding more configuration options that fits to your needs.
+You can extensively modify it by adding more configuration options that fit to your needs.
 
 
 # Usage
