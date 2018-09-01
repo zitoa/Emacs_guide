@@ -15,6 +15,7 @@ As an example in this context, I uploaded a basic initialization file. It instru
 You can extensively modify it by adding more configuration options that fit to your needs.
 
 Tell about package installation
+
 From your M-x: list-packages. This will list of available Emacs packages along with version, status (mostly one of "built-in", "available", "installed") for each of them. If you want to install or disinstall a package, find its name in the list, move the cursor to the line and click <Enter>. You can then click on <install> or <disinstall>. After installation, you will find the package's folder and its readme.txt under the folder elpa, which is tipically located in the same folder as your init.el files.
 
 # Usage
