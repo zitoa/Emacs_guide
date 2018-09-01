@@ -1,5 +1,7 @@
-# Emacs_guide
-A short guide on how to configure and use Emacs.
+# Background
+
+
+Follows a short guide on how to configure and use Emacs.
 
 Write here a 10 rows description.  
 Emacs is a text-editor originally developed by.
