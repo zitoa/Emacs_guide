@@ -16,7 +16,11 @@ You can extensively modify it by adding more configuration options that fit to y
 
 Tell about package installation
 
-From your M-x: list-packages. This will list of available Emacs packages along with version, status (mostly one of "built-in", "available", "installed") for each of them. If you want to install or disinstall a package, find its name in the list, move the cursor to the line and click <Enter>. You can then click on <install> or <disinstall>. After installation, you will find the package's folder and its readme.txt under the folder elpa, which is tipically located in the same folder as your init.el files.
+Type *M-x list-packages* to open the 'Emacs Packages Menu'. This will list of available Emacs packages along with version, status (mostly one of "built-in", "available", "installed") for each of them. If you want to install or disinstall a package, move the cursor to the package name and click <Enter>. You can then click on <install> or <disinstall>. Another easy way to install packages, particularly useful when multiple packages have to be installed, is to press *i* to mark for installation all packages, *u* to mark for disinstallation and *x* to download and install them. Lots of packages depends on other packages; when installing a package who has dependencies, Emacs will download and install also the uninstalled dependencies.
+  
+ After installation, you will find the package's folder and its readme.txt under the folder elpa, which is tipically located in the same path as your init.el file (or whatever initialization file you are use). 
+  
+ Installed packages are usually loaded and available after the Emacs session is re-started, and there is no need of additional configuration steps. However, if *--no-init-file or -q* is invoked, Emacs does not load packages at startup. 
 
 # Usage
-.....
+Below I provide a list of the main keyboard keys used in Emacs, along with their functions.
