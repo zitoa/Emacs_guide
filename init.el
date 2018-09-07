@@ -5,7 +5,7 @@
 ;; Autocomplete
 (add-hook 'after-init-hook 'global-company-mode)
 
-;; C\C++ stuff
+;; C/C++ stuff
 (add-hook 'c-mode-common-hook
 	  (lambda ()
 	    (when (and (derived-mode-p 'c-mode 'c++-mode 'java-mode) (require 'ggtags nil 'noerror))
