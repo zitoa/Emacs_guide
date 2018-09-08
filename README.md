@@ -1,9 +1,10 @@
 # Background
 GNU Emacs is the most used Emacs text-editor, conceived and developed by Richard Stallman at MIT. It is also known as GNUMACS and as "the extensible and self-documenting text editor". Its extensibility and flexibility make GNU Emacs a very powerful text-editor. GNU Emacs is written in C and Emacs Lisp (Elisp). Emacs Lisp is a Lisp-based scripting language, specifically used by Emacs for implementing most of its customizing and extension functions.
 
+... 2 sentences on its graphical interfaces: describe buffers and their roles.
 
-
-Follows here a description on configuration,install and disinstall packages, and a list of most used default commands.
+GNU Emacs is implemented on most OS(s), including DOS, Windows, and the Unix-like OS such as Linux, Solaris, macOS. On Unix-like OS(s), it is part of the OS installation package. GNU Emacs runs on both GUI(s) and text terminals.
+Follows here a description on configuration,install and disinstall packages, and a list of most used standard commands.
 
 # Configuration and packages installation
 When you open Emacs, it finds an initialization file. This a Lisp (*.el*) configuration file that specifies the instructions to configure and start an Emacs session. By default, Emacs will look for the following 3 files: $HOME/.emacs, $HOME/.emacs.el, $HOME/.emacs.d/init.el. If one of these file exists, Emacs will use it for initialization. The idea is to assign to the current user its own initialization file. The user-name that Emacs uses is specified by the environmental variables $LOGNAME and $USER. The $HOME directory accessed by Emacs is that corresponding to the that user-name. While these are its default behaviours, you can instruct Emacs to do not load the default initialization file (--no-init-file or -q) or look into another user's directory (--user, -u USER_NAME). Type *emacs --h* from your command line to view all starting options.
