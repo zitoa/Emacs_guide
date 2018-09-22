@@ -46,12 +46,7 @@ M-w       copy selected region
 C-y       paste selected region
 C-a       move cursor to the beginning of line
 C-e       move cursor to the beginning of line
-M-v       scroll down one page   
-
-
-C-x 1
-C-x 2 
-
+M-v       scroll down one page
 
 
 
