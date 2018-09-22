@@ -1,7 +1,7 @@
 # Background
 GNU Emacs is the most used Emacs text-editor, conceived and developed by Richard Stallman at MIT. It is also known as GNUMACS and as "the extensible and self-documenting text editor". Its extensibility and flexibility make GNU Emacs a very powerful text-editor. GNU Emacs is written in C and Emacs Lisp (Elisp). Emacs Lisp is a Lisp-based scripting language used by Emacs for implementing most of its customizing and extension functions. GNU Emacs is implemented on most OS(s), including DOS, Windows, and the Unix-like OS such as Linux, Solaris, macOS. On Unix-like OS(s), it is part of the OS installation package. GNU Emacs runs on both GUI(s) and text terminals.
 
-An Emacs session is conducted in a buffer. Buffers are tiled frames partitioned from the whole Emacs screen. Emacs frames are tiled and do not overlap or 'collide' with other opened frames. A buffer has its own delimited space and operates independently from other buffers. Each buffer contains a scroll bar, a "header line" at the top and a "mode line" at the bottom. Many buffers can be opened, and theoretically there is no upper limit to the number of buffers that can be opened in Emacs. A buffer can display text files, codes, image files, and also the output of an invoked Emacs command. Importantly, names of buffers created by Emacs usually have asterisks on each end. This allows to  distinguish these buffers from user's created buffers. The bottom edge of an Emacs frame contains the *status bar*, also called the "mode line", which may give information on the current state on that window. The bottommost area is the "minibuffer", used to perform operation associated with an Emacs command (e.g text to target in a isearch). The minibuffer has analogue function to a dialog-box in a GUI. When it is used to store the output of Emacs commands (tipically short string of text, although the lenght of allowed text is customizable), the "minifuffer" is called the "echo area". Buffer configuration can be extensively customized in Elisp. In programming, a commonly adopted interface includes a frame to display the source code with another to display the output of code, and may be another displaying a debugger or a code documentation page.
+An Emacs session is conducted in a buffer. Buffers are tiled frames partitioned from the whole Emacs screen. Emacs frames are tiled and do not overlap or 'collide' with other open frames. A buffer has its own delimited space and operates independently from other buffers. Each buffer contains a scroll bar, a "header line" at the top and a "mode line" at the bottom. Many buffers can be opened, and theoretically there is no upper limit to the number of buffers that can be opened in Emacs. A buffer can display text files, codes, image files, and also the output of an invoked Emacs command. Importantly, names of buffers created by Emacs usually have asterisks on each end. This allows to  distinguish these buffers from user's created buffers. The bottom edge of an Emacs frame contains the *status bar*, also called the "mode line", which may give information on the current state on that window. The bottommost area is the "minibuffer", used to perform operation associated with an Emacs command (e.g text to target in a isearch or commands below). The minibuffer has analogue function to a dialog-box in a GUI. When it is used to store the output of Emacs commands (tipically short string of text, although the lenght of allowed text is customizable), the "minifuffer" is called the "echo area". Buffer configuration can be extensively customized in Elisp. In programming, a commonly adopted interface includes a frame to display the source code with another to display the output of code, and may be another displaying a debugger or a code documentation page.
 
 Add only 2-3 sentences on major mode, minor mode, batch mode.
 
@@ -37,6 +37,18 @@ C-x C-w   write all content in the current buffer to another file
 C-x C-v   find another file and open it
 C-x i     insert content of another file at cursor position
 C-u <char>  repeat <char> 4 times at the cursor position 
+C-g       quit the the previously typed Emacs command
+C-x u     undo previous action
+C-d       delete a char
+M-d       delete word
+C-k       delete entire line
+M-w       copy selected region
+C-y       paste selected region
+C-a       move cursor to the beginning of line
+C-e       move cursor to the beginning of line
+M-v       scroll down one page   
+
+
 C-x 1
 C-x 2 
 
