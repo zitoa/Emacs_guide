@@ -18,10 +18,12 @@ Type *M-x list-packages* to open the 'Emacs Packages Menu'. This lists the avail
 
 # Usage
 Emacs is well known as the "keyboard keys" text editor. Bioinformaticians do not even want to start using it or they quit using it soon after starting because learning the Emacs structure with all its keyboard keys can be boring, mental demanding and very confusing for beginners. However, it is really worth, and efforts will be well paid back. Emacs a very powerful and compact text editor, and improves performance and efficiency of developers and bioinformaticians. Commands in Emacs are tipically under either the control of the <Ctrl> key or the <META> key (often labeled EDIT or ALT in the keyboard). Both the <Ctrl> and the <META> key must be held down while typing the next character. Another key used in Emacs is the <Esc> key, although is used in cases when none of the <META>, <EDIT> or <ALT> keys is present. The <Esc> key can be typed itself and be followed by another character to start specific actions. Compared to the <Ctrl> and <META> keys, the <Esc> key does not need to be held down while putting the next character. Conventionally, when talking about the Emacs commands, the <Ctrl> key is abbreviated as C-, the <META> key as M-, and the <Esc> key as ESC. Thus:
+  
 1) C-<chr> means hold down the <Ctrl> key while typing the character <chr> (e.g: C-s: hold down the <Ctrl> key and type s).
 2) M-<chr> means hold down the <META> key while typing the character <chr> (e.g: M-x: hold down the <META> key and type x).
 3) If none of the <META> <EDIT> or <ALT> key is present, press and release the <Esc> key and then type <chr>. 
 I will refer to this convention below here, where I list the main commands used in Emacs and their functions.
+
 C-x C-f   find file, open a given file or create a file
 C-x C-s   save file
 C-x o     move cursor" to another open buffer
