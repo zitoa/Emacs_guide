@@ -21,8 +21,26 @@ Emacs is well known as the "keyboard keys" text editor. Bioinformaticians do not
 1) C-<chr> means hold down the <Ctrl> key while typing the character <chr> (e.g: C-s: hold the <Ctrl> key and type s).
 2) M-<chr> means hold down the <META> key while typing the character <chr> (e.g: M-x: hold the <META> key and type x).
 3) If none of the <META> <EDIT> or <ALT> key is present, press and release the <Esc> key and then type <chr>. 
-
 I will refer to this convention below here, where I list the main commands used in Emacs and their functions.
+
+C-x C-f   find file, open a given file or create a file
+C-x C-s   save file
+C-x o     move cursor" to another open buffer
+C-x C-d   list directory
+C-x d     start DirEd (Directory Editor)
+C-x b     switch buffer
+C-x C-b   show buffers list
+C-x k     kill buffer
+C-z       suspend buffer
+C-x C-c   close Emacs session
+C-x C-w   write all content in the current buffer to another file
+C-x C-v   find another file and open it
+C-x i     insert content of another file at cursor position
+C-u <char>  repeat <char> 4 times at the cursor position 
+C-x 1
+C-x 2 
+
+
 
 
 
