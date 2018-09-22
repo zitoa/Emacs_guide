@@ -24,7 +24,7 @@ Emacs is well known as the "keyboard keys" text editor. Bioinformaticians do not
 3) If none of the <META> <EDIT> or <ALT> key is present, press and release the <Esc> key and then type <chr>. 
 I will refer to this convention below here, where I list the main commands used in Emacs and their functions.
 
-C-x C-f   find file, open a given file or create a file
+C-x C-f   find file, open a given file or create a file  
 C-x C-s   save file
 C-x o     move cursor" to another open buffer
 C-x C-d   list directory
