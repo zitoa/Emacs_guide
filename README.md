@@ -25,26 +25,26 @@ Emacs is well known as the "keyboard keys" text editor. Bioinformaticians do not
 I will refer to this convention below here, where I list the main commands used in Emacs and their functions.
 
 C-x C-f   find file, open a given file or create a file  
-C-x C-s   save file
-C-x o     move cursor" to another open buffer
-C-x C-d   list directory
-C-x d     start DirEd (Directory Editor)
-C-x b     switch buffer
-C-x C-b   show buffers list
-C-x k     kill buffer
-C-z       suspend buffer
-C-x C-c   close Emacs session
-C-x C-w   write all content in the current buffer to another file
-C-x C-v   find another file and open it
-C-x i     insert content of another file at cursor position
-C-u <char>  repeat <char> 4 times at the cursor position 
-C-g       quit the the previously typed Emacs command
-C-x u     undo previous action
-C-d       delete a char
-M-d       delete word
-C-k       delete entire line
-M-w       copy selected region
-C-y       paste selected region
-C-a       move cursor to the beginning of line
-C-e       move cursor to the beginning of line
-M-v       scroll down one page
+C-x C-s   save file  
+C-x o     move cursor" to another open buffer  
+C-x C-d   list directory  
+C-x d     start DirEd (Directory Editor)  
+C-x b     switch buffer  
+C-x C-b   show buffers list  
+C-x k     kill buffer  
+C-z       suspend buffer  
+C-x C-c   close Emacs session  
+C-x C-w   write all content in the current buffer to another file  
+C-x C-v   find another file and open it  
+C-x i     insert content of another file at cursor position  
+C-u <char>  repeat <char> 4 times at the cursor position  
+C-g       quit the the previously typed Emacs command  
+C-x u     undo previous action  
+C-d       delete a char  
+M-d       delete word  
+C-k       delete entire line  
+M-w       copy selected region  
+C-y       paste selected region  
+C-a       move cursor to the beginning of line  
+C-e       move cursor to the beginning of line  
+M-v       scroll down one page  
