@@ -19,10 +19,10 @@ Type *M-x list-packages* to open the 'Emacs Packages Menu'. This lists the avail
 # Usage
 Emacs is well known as the "keyboard-based" text editor. Although learning Emacs can be boring and painful at beginning, I think it is really worth, and efforts will be well paid back. Working with Emacs improves performance and efficiency. Commands in Emacs are controlled by the 'Ctrl' and the 'META' keys. GNU Emacs for Microsoft and Linux by default make the 'Alt' key do be the 'META' key. On the Mac OS X, it's either ⌥ option or ⌘ command, depending on the emacs distribution. The 'Esc' key can also be used to invoke the 'META' key. Whilst the 'Ctrl' is often (but now always) held down while putting another character, the 'META' key does not need to be held down. When talking about Emacs commands, C- refers to 'Ctrl', M- to 'META', and ESC to the 'Esc' key. Thus:
   
-1) C-<chr> means hold down the <Ctrl> key while typing the character <chr> (e.g: C-s: hold down the <Ctrl> key and type s).
-2) M-<chr> means hold down the <META> key while typing the character <chr> (e.g: M-x: hold down the <META> key and type x).
-3) If none of the <META> <EDIT> or <ALT> key is present, press and release the <Esc> key and then type <chr>. 
-I will refer to this convention below here, where I list the main commands used in Emacs and their functions.
+1) C-'chr' means hold down the 'Ctrl' key while typing the character 'chr' (e.g: C-s: hold down the 'Ctrl' key and type s).
+2) M-'chr' means hold down the 'META' key while typing the character 'chr' (e.g: M-x: hold down the 'META' key and type x).
+
+Below, I list the most used Emacs commands:
 
 C-x C-f   find file, open a given file or create a file  
 C-x C-s   save file  
@@ -37,7 +37,7 @@ C-x C-c   close Emacs session
 C-x C-w   write all content in the current buffer to another file  
 C-x C-v   find another file and open it  
 C-x i     insert content of another file at cursor position  
-C-u <char>  repeat <char> 4 times at the cursor position  
+C-u 'char'  repeat <char> 4 times at the cursor position  
 C-g       quit the the previously typed Emacs command  
 C-x u     undo previous action  
 C-d       delete a char  
