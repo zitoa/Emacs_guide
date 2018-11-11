@@ -38,7 +38,7 @@ C-x C-c   close Emacs session
 C-x C-w   write all content in the current buffer to another file  
 C-x C-v   find another file and open it  
 C-x i     insert content of another file at cursor position  
-C-u 'char'  repeat <char> 4 times at the cursor position  
+C-u 'char'  repeat 'char' 4 times at the cursor position  
 C-g       quit the the previously typed Emacs command  
 C-x u     undo previous action  
 C-d       delete a char  
@@ -48,4 +48,11 @@ M-w       copy selected region
 C-y       paste selected region  
 C-a       move cursor to the beginning of line  
 C-e       move cursor to the beginning of line  
+C-f       forward char
+C-b       backward char
+C-p       previous line
+C-n       next line
+C-v       one page up
 M-v       scroll down one page  
+
+FROM C-Space
