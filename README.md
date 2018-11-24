@@ -56,12 +56,16 @@ C-v         one page up
 M-v         scroll down one page  
 C-k         delete the marked strings or rest of line
 M-w         delete the marked region
-C-t         transpose two consecutive chars (after placing the cursor on the second char)
-M-t         transpose the two words (after placing the cursor in the middle of the two words)
-C-x C-t     transpose two lines (after placing the cursor on the second line)
-M-u         make all chars in a word uppercase (after placing the cursor at beginning of the word)
-M-l         make all chars in a word lowercase (after placing the cursor at beginning of the word)
+C-t         transpose two consecutive chars (after placing the cursor on the second char)  
+M-t         transpose the two words (after placing the cursor in the middle of the two words)  
+C-x C-t     transpose two lines (after placing the cursor on the second line)  
+M-u         make all chars in a word uppercase (after placing the cursor at beginning of the word)  
+M-l         make all chars in a word lowercase (after placing the cursor at beginning of the word)  
+M-x        'center-region' / 'center-line' / 'center-paragraph'         
 
-Windows management
+Windows management and session customization
+M-x 'speedbar'           open a separate window that list all user's directories  
+M-x 'shell'              start shell terminal below in a separate buffer  
+M-x 'customize-themes'   list available for session customization
 
 Online Emacs help & Emacs doctor for frustrated
