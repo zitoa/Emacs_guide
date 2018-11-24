@@ -25,34 +25,43 @@ Emacs is well known as the "keyboard-based" text editor. Although learning Emacs
 
 Below, I list the most used Emacs commands:
 
-C-x C-f   find, open, or create a file  
-C-x C-s   save file  
-C-x o     move cursor" to another open buffer  
-C-x C-d   list directory  
-C-x d     start DirEd (Directory Editor)  
-C-x b     switch buffer  
-C-x C-b   show buffers list  
-C-x k     kill buffer  
-C-z       suspend buffer  
-C-x C-c   close Emacs session  
-C-x C-w   write all content in the current buffer to another file  
-C-x C-v   find another file and open it  
-C-x i     insert content of another file at cursor position  
+C-x C-f     find, open, or create a file  
+C-x C-s     save file  
+C-x o       move cursor" to another open buffer  
+C-x C-d     list directory  
+C-x d       start DirEd (Directory Editor)  
+C-x b       switch buffer  
+C-x C-b     show buffers list  
+C-x k       kill buffer  
+C-z         suspend buffer  
+C-x C-c     close Emacs session  
+C-x C-w     write all content in the current buffer to another file  
+C-x C-v     find another file and open it  
+C-x i       insert content of another file at cursor position  
 C-u 'char'  repeat 'char' 4 times at the cursor position  
-C-g       quit the the previously typed Emacs command  
-C-x u     undo previous action  
-C-d       delete a char  
-M-d       delete word  
-C-k       delete entire line  
-M-w       copy selected region  
-C-y       paste selected region  
-C-a       move cursor to the beginning of line  
-C-e       move cursor to the beginning of line  
-C-f       forward char
-C-b       backward char
-C-p       previous line
-C-n       next line
-C-v       one page up
-M-v       scroll down one page  
+C-g         quit the the previously typed Emacs command  
+C-x u       undo previous action  
+C-d         delete a char  
+M-d         delete word  
+C-k         delete entire line  
+M-w         copy selected region  
+C-y         paste selected region  
+C-a         move cursor to the beginning of line  
+C-e         move cursor to the beginning of line  
+C-f         forward char
+C-b         backward char
+C-p         previous line
+C-n         next line
+C-v         one page up
+M-v         scroll down one page  
+C-k         delete the marked strings or rest of line
+M-w         delete the marked region
+C-t         transpose two consecutive chars (after placing the cursor on the second char)
+M-t         transpose the two words (after placing the cursor in the middle of the two words)
+C-x C-t     transpose two lines (after placing the cursor on the second line)
+M-u         make all chars in a word uppercase (after placing the cursor at beginning of the word)
+M-l         make all chars in a word lowercase (after placing the cursor at beginning of the word)
 
-FROM C-Space
+Windows management
+
+Online Emacs help & Emacs doctor for frustrated
