@@ -64,8 +64,11 @@ M-l         make all chars in a word lowercase (after placing the cursor at begi
 M-x        'center-region' / 'center-line' / 'center-paragraph' / 'indent-region' (this last relevant when programming)   
   
 Windows management and session customization  
+Add HERE Window-commands
+
 M-x 'speedbar'           open a separate window that list all user's directories  
 M-x 'shell'              start shell terminal below in a separate buffer  
 M-x 'customize-themes'   list available for session customization  
 
 Online Emacs help & Emacs doctor for frustrated
+Add HERE online helps
