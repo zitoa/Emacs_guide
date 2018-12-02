@@ -64,7 +64,14 @@ M-l         make all chars in a word lowercase (after placing the cursor at begi
 M-x        'center-region' / 'center-line' / 'center-paragraph' / 'indent-region' (this last relevant when programming)   
   
 Windows management and session customization  
-Add HERE Window-commands
+C-x 0       delete only window hosting the cursor  
+C-x 1       keep only the window hosting the cursor while close all others  
+C-x 2       split window orizzontally  
+C-x 3       split window vertically  
+C-x o       move cursor to another window (if this exists)  
+C-x 4 f     find and open file in other window  
+C-x 5 f     find and open file in other Emacs frame  
+C-x 5 o     move cursor to another Emacs frame (if this exists)  
 
 M-x 'speedbar'           open a separate window that list all user's directories  
 M-x 'shell'              start shell terminal below in a separate buffer  
