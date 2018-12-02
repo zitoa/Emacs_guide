@@ -72,10 +72,16 @@ C-x o       move cursor to another window (if this exists)
 C-x 4 f     find and open file in other window  
 C-x 5 f     find and open file in other Emacs frame  
 C-x 5 o     move cursor to another Emacs frame (if this exists)  
-
 M-x 'speedbar'           open a separate window that list all user's directories  
 M-x 'shell'              start shell terminal below in a separate buffer  
 M-x 'customize-themes'   list available for session customization  
+    
+Emacs help  
+C-h t       open a window with the Emacs tutorial  
+C-h i       open a windom with the Info Directory  
+C-h k       provide description of the command invoked  
+C-h l       list the last command I have typed  
+C-h v       show Emacs variable value and description  
+M-x doctor  open Emacs doctor if you feel alone - interactively chat with him!-)  
 
-Online Emacs help & Emacs doctor for frustrated
-Add HERE online helps
+
