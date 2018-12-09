@@ -62,24 +62,24 @@ Below, I list the most used Emacs commands:
 - M-x &emsp; center-region / center-line / center-paragraph / indent-region (useful for programming)   
   
 Windows management and session customization  
-C-x 0       delete only window hosting the cursor  
-C-x 1       keep only the window hosting the cursor while close all others  
-C-x 2       split window orizzontally  
-C-x 3       split window vertically  
-C-x o       move cursor to another window (if this exists)  
-C-x 4 f     find and open file in other window  
-C-x 5 f     find and open file in other Emacs frame  
-C-x 5 o     move cursor to another Emacs frame (if this exists)  
-M-x 'speedbar'           open a separate window that list all user's directories  
-M-x 'shell'              start shell terminal below in a separate buffer  
-M-x 'customize-themes'   list available for session customization  
+C-x 0 &emsp; delete only window hosting the cursor  
+C-x 1 &emsp; keep only the window hosting the cursor while close all others  
+C-x 2 &emsp; split window orizzontally  
+C-x 3 &emsp; split window vertically  
+C-x o &emsp; move cursor to another window (if this exists)  
+C-x 4 f &emsp; find and open file in other window  
+C-x 5 f &emsp; find and open file in other Emacs frame  
+C-x 5 o &emsp; move cursor to another Emacs frame (if this exists)  
+M-x 'speedbar' &emsp; open a separate window that list all user's directories  
+M-x 'shell' &emsp; start shell terminal below in a separate buffer  
+M-x 'customize-themes' &emsp; list available for session customization  
     
 Emacs help  
-C-h t       open a window with the Emacs tutorial  
-C-h i       open a windom with the Info Directory  
-C-h k       provide description of the command invoked  
-C-h l       list the last command I have typed  
-C-h v       show Emacs variable value and description  
-M-x doctor  open Emacs doctor if you feel alone - interactively chat with him!-)  
+C-h t &emsp; open a window with the Emacs tutorial  
+C-h i &emsp; open a windom with the Info Directory  
+C-h k &emsp; provide description of the command invoked  
+C-h l &emsp; list the last command I have typed  
+C-h v &emsp; show Emacs variable value and description  
+M-x 'doctor' &emsp; open your Emacs psychotherapist
 
 
