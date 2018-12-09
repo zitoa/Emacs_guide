@@ -61,7 +61,7 @@ Below, I list the most used Emacs commands:
 - M-l &emsp; make all chars in a word lowercase (after placing the cursor at beginning of the word)  
 - M-x &emsp; center-region / center-line / center-paragraph / indent-region (useful for programming)   
   
-  
+    
 Windows management and session customization  
 - C-x 0 &emsp; delete only window hosting the cursor  
 - C-x 1 &emsp; keep only the window hosting the cursor while close all others  
