@@ -5,11 +5,11 @@ An Emacs session is conducted in a buffer. Buffers are frames partitioned from t
 
 # Configuration and packages installation
 When you launch Emacs, it finds an initialization file (init file). The init file is a Lisp (*.el*) configuration file that specifies the instructions for configuring and starting Emacs. By default, Emacs will look for the following 3 files: $HOME/.emacs, $HOME/.emacs.el, $HOME/.emacs.d/init.el. If one of these file exists, Emacs will use it for initialization. The idea is to assign to the current user its own initialization file. The user-name that Emacs uses is specified by the environmental variables $LOGNAME and $USER. The $HOME directory accessed by Emacs is that corresponding to the that user-name. You can instruct Emacs to do not load the init file (as default), by setting *--no-init-file* or *-q*. You can also instruct Emacs to look into another user's directory, by setting *--user USER_NAME*.  
-Type *emacs --h* from your command line to view all starting options.
+Type *emacs --h* from your command line to view all starting options.  
 
-As an example in this context, I uploaded a basic initialization file. It instructs to: 
-1) make available the MELPA (Milkypostman’s Emacs Lisp Package Archive) archive to install Emacs packages (~4000 packages); 
-2) autocomplete code by using *global-company-mode* package - here coupled to *ggtags* package to autocomplete C++ code.
+As example, I uploaded a basic init file. It instructs to: 
+1) use the MELPA (Milkypostman’s Emacs Lisp Package Archive) archive to install Emacs packages (~4000 packages); 
+2) use *global-company-mode* package - here coupled to *ggtags* package to autocomplete C++/python/R code.
 3) use default variables and faces/themes.
 You can extensively modify it by adding more configuration options that fit to your needs.
 
