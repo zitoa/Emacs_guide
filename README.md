@@ -73,9 +73,7 @@ Below, I list the most used Emacs commands:
 - M-x 'speedbar' &emsp; open a separate window that list all user's directories  
 - M-x 'shell' &emsp; start shell terminal below in a separate buffer  
 - M-x 'customize-themes' &emsp; list available for session customization  
-  
-  
-  
+
 #### Emacs help  
 - C-h t &emsp; open a window with the Emacs tutorial  
 - C-h i &emsp; open a windom with the Info Directory  
