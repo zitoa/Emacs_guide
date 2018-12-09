@@ -26,42 +26,40 @@ Below, I list the most used Emacs commands:
 - C-x C-f &emsp; find, open, or create a file  
 - C-x C-s &emsp; save file  
 - C-x o   &emsp; move cursor to another open buffer;
-
-
-C-x C-d  list directory  
-C-x d    start DirEd (Directory Editor)  
-C-x b    switch buffer  
-C-x C-b  show buffers list  
-C-x k    kill buffer  
-C-z      suspend buffer  
-C-x C-c  close Emacs session  
-C-x C-w  write all content in the current buffer to another file  
-C-x C-v  find another file and open it  
-C-x i    insert content of another file at cursor position  
-C-u 'char'  repeat 'char' 4 times at the cursor position  
-C-g       &nbsp;&nbsp;&nbsp; quit the the previously typed Emacs command  
-C-x u     &nbsp;&nbsp;&nbsp; undo previous action  
-C-d       &nbsp;&nbsp;&nbsp; delete a char  
-M-d       &nbsp;&nbsp;&nbsp; delete word  
-C-k       &nbsp;&nbsp;&nbsp; delete entire line  
-M-w       &nbsp;&nbsp;&nbsp; copy selected region  
-C-y       &nbsp;&nbsp;&nbsp; paste selected region  
-C-a       &nbsp;&nbsp;&nbsp; move cursor to the beginning of line  
-C-e       &nbsp;&nbsp;&nbsp; move cursor to the beginning of line  
-C-f       &nbsp;&nbsp;&nbsp; forward char
-C-b       &nbsp;&nbsp;&nbsp; backward char
-C-p       &nbsp;&nbsp;&nbsp; previous line
-C-n       next line
-C-v       one page up
-M-v       scroll down one page  
-C-k       delete the marked strings or rest of line
-M-w       delete the marked region
-C-t       transpose two consecutive chars (after placing the cursor on the second char)  
-M-t       &nbsp;&nbsp;&nbsp; transpose the two words (after placing the cursor in the middle of the two words)  
-C-x C-t   &nbsp;&nbsp;&nbsp; transpose two lines (after placing the cursor on the second line)  
-M-u       &nbsp;&nbsp;&nbsp; make all chars in a word uppercase (after placing the cursor at beginning of the word)  
-M-l       &nbsp;&nbsp;&nbsp; make all chars in a word lowercase (after placing the cursor at beginning of the word)  
-M-x       &nbsp;&nbsp;&nbsp; center-region / center-line / center-paragraph / indent-region (useful for programming)   
+- C-x C-d &emsp; list directory  
+- C-x d &emsp; start DirEd (Directory Editor)  
+- C-x b &emsp; switch buffer  
+- C-x C-b &emsp; show buffers list  
+- C-x k &emsp; kill buffer  
+- C-z &emsp; suspend buffer  
+- C-x C-c &emsp; close Emacs session  
+- C-x C-w &emsp; write all content in the current buffer to another file  
+- C-x C-v &emsp; find another file and open it  
+- C-x i &emsp; insert content of another file at cursor position  
+- C-u 'char' &emsp; repeat 'char' 4 times at the cursor position  
+- C-g &emsp; quit the the previously typed Emacs command  
+- C-x u &emsp; undo previous action  
+- C-d &emsp; delete a char  
+- M-d &emsp; delete word  
+- C-k &emsp; delete entire line  
+- M-w &emsp; copy selected region  
+- C-y &emsp; paste selected region  
+- C-a &emsp; move cursor to the beginning of line  
+- C-e &emsp; move cursor to the beginning of line  
+- C-f &emsp; forward char
+- C-b &emsp; backward char
+- C-p &emsp; previous line
+- C-n &emsp; next line
+- C-v &emsp; one page up
+- M-v &emsp; scroll down one page  
+- C-k &emsp; delete the marked strings or rest of line
+- M-w &emsp; delete the marked region
+- C-t &emsp; transpose two consecutive chars (after placing the cursor on the second char)  
+- M-t &emsp; transpose the two words (after placing the cursor in the middle of the two words)  
+- C-x C-t &emsp; transpose two lines (after placing the cursor on the second line)  
+- M-u &emsp; make all chars in a word uppercase (after placing the cursor at beginning of the word)  
+- M-l &emsp; make all chars in a word lowercase (after placing the cursor at beginning of the word)  
+- M-x &emsp; center-region / center-line / center-paragraph / indent-region (useful for programming)   
   
 Windows management and session customization  
 C-x 0       delete only window hosting the cursor  
