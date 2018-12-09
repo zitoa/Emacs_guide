@@ -25,6 +25,8 @@ Below, I list the most used Emacs commands:
 
 C-x C-f  &nbsp;&nbsp;&nbsp; find, open, or create a file  
 C-x C-s  &nbsp;&nbsp;&nbsp; save file  
+
+
 C-x o    &nbsp;&nbsp;&nbsp; move cursor" to another open buffer  
 C-x C-d  &nbsp;&nbsp;&nbsp; list directory  
 C-x d    &nbsp;&nbsp;&nbsp; start DirEd (Directory Editor)  
