@@ -24,42 +24,42 @@ Emacs is well known as the 'keyboard-based' text editor. Learning Emacs can be b
 Below, I list the most used Emacs commands:
 
 C-x C-f  &nbsp;&nbsp;&nbsp; find, open, or create a file  
-C-x C-s  save file  
-C-x o       move cursor" to another open buffer  
-C-x C-d     list directory  
-C-x d       start DirEd (Directory Editor)  
-C-x b       switch buffer  
-C-x C-b     show buffers list  
-C-x k       kill buffer  
-C-z         suspend buffer  
-C-x C-c     close Emacs session  
-C-x C-w     write all content in the current buffer to another file  
-C-x C-v     find another file and open it  
-C-x i       insert content of another file at cursor position  
-C-u 'char'  repeat 'char' 4 times at the cursor position  
-C-g         quit the the previously typed Emacs command  
-C-x u       undo previous action  
-C-d         delete a char  
-M-d         delete word  
-C-k         delete entire line  
-M-w         copy selected region  
-C-y         paste selected region  
-C-a         move cursor to the beginning of line  
-C-e         move cursor to the beginning of line  
-C-f         forward char
-C-b         backward char
-C-p         previous line
-C-n         next line
-C-v         one page up
-M-v         scroll down one page  
-C-k         delete the marked strings or rest of line
-M-w         delete the marked region
-C-t         transpose two consecutive chars (after placing the cursor on the second char)  
-M-t         transpose the two words (after placing the cursor in the middle of the two words)  
-C-x C-t     transpose two lines (after placing the cursor on the second line)  
-M-u         make all chars in a word uppercase (after placing the cursor at beginning of the word)  
-M-l         make all chars in a word lowercase (after placing the cursor at beginning of the word)  
-M-x        'center-region' / 'center-line' / 'center-paragraph' / 'indent-region' (this last relevant when programming)   
+C-x C-s  &nbsp;&nbsp;&nbsp; save file  
+C-x o    &nbsp;&nbsp;&nbsp; move cursor" to another open buffer  
+C-x C-d  &nbsp;&nbsp;&nbsp; list directory  
+C-x d    &nbsp;&nbsp;&nbsp; start DirEd (Directory Editor)  
+C-x b    &nbsp;&nbsp;&nbsp; switch buffer  
+C-x C-b  &nbsp;&nbsp;&nbsp; show buffers list  
+C-x k    &nbsp;&nbsp;&nbsp; kill buffer  
+C-z      &nbsp;&nbsp;&nbsp; suspend buffer  
+C-x C-c  &nbsp;&nbsp;&nbsp; close Emacs session  
+C-x C-w  &nbsp;&nbsp;&nbsp; write all content in the current buffer to another file  
+C-x C-v  &nbsp;&nbsp;&nbsp; find another file and open it  
+C-x i    &nbsp;&nbsp;&nbsp; insert content of another file at cursor position  
+C-u 'char'  &nbsp;&nbsp;&nbsp; repeat 'char' 4 times at the cursor position  
+C-g       &nbsp;&nbsp;&nbsp; quit the the previously typed Emacs command  
+C-x u     &nbsp;&nbsp;&nbsp; undo previous action  
+C-d       &nbsp;&nbsp;&nbsp; delete a char  
+M-d       &nbsp;&nbsp;&nbsp; delete word  
+C-k       &nbsp;&nbsp;&nbsp; delete entire line  
+M-w       &nbsp;&nbsp;&nbsp; copy selected region  
+C-y       &nbsp;&nbsp;&nbsp; paste selected region  
+C-a       &nbsp;&nbsp;&nbsp; move cursor to the beginning of line  
+C-e       &nbsp;&nbsp;&nbsp; move cursor to the beginning of line  
+C-f       &nbsp;&nbsp;&nbsp; forward char
+C-b       &nbsp;&nbsp;&nbsp; backward char
+C-p       &nbsp;&nbsp;&nbsp; previous line
+C-n       &nbsp;&nbsp;&nbsp; next line
+C-v       &nbsp;&nbsp;&nbsp; one page up
+M-v       &nbsp;&nbsp;&nbsp; scroll down one page  
+C-k       &nbsp;&nbsp;&nbsp; delete the marked strings or rest of line
+M-w       &nbsp;&nbsp;&nbsp; delete the marked region
+C-t       &nbsp;&nbsp;&nbsp; transpose two consecutive chars (after placing the cursor on the second char)  
+M-t       &nbsp;&nbsp;&nbsp; transpose the two words (after placing the cursor in the middle of the two words)  
+C-x C-t   &nbsp;&nbsp;&nbsp; transpose two lines (after placing the cursor on the second line)  
+M-u       &nbsp;&nbsp;&nbsp; make all chars in a word uppercase (after placing the cursor at beginning of the word)  
+M-l       &nbsp;&nbsp;&nbsp; make all chars in a word lowercase (after placing the cursor at beginning of the word)  
+M-x       &nbsp;&nbsp;&nbsp; center-region / center-line / center-paragraph / indent-region (useful for programming)   
   
 Windows management and session customization  
 C-x 0       delete only window hosting the cursor  
