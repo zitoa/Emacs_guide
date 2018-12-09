@@ -8,7 +8,7 @@ When you launch Emacs, it finds an initialization file (init file). The init fil
 Type *emacs --h* from your command line to view all starting options.  
 
 As example, I uploaded a basic init file. It instructs to: 
-1) use the MELPA (Milkypostman’s Emacs Lisp Package Archive) archive to install Emacs packages (~4000 packages); 
+1) use the MELPA (Milkypostman’s Emacs Lisp Package Archive) archive to install packages (~4000 packages); 
 2) use *global-company-mode* package - here coupled to *ggtags* package to autocomplete C++/python/R code.
 3) use default variables and faces/themes.
 You can extensively modify it by adding more configuration options that fit to your needs.
