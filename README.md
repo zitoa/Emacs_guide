@@ -24,8 +24,8 @@ Emacs is well known as the 'keyboard-based' text editor. Learning Emacs can be b
 Below, I list the most used Emacs commands:
 
 C-x C-f &emsp; find, open, or create a file  
-C-x C-s &nbsp;&nbsp;&nbsp; save file  
-C-x o   &nbsp;&nbsp;&nbsp; move cursor to another open buffer  
+C-x C-s &emsp; save file  
+C-x o   &emsp; move cursor to another open buffer  
 
 
 C-x C-d  &nbsp;&nbsp;&nbsp; list directory  
